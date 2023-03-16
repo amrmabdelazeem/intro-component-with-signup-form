@@ -35,27 +35,29 @@
             <a href="#" class="btn btn-primary" role="button"><span>Try it free 7 days</span> then $20/mo.
               thereafter</a>
           </div>
-          <div class="pt-4 form-section">
+          <div class="pt-4 form-section" onsubmit="submitForm()">
             <div class="col- col-xl-12">
-              <div class="mb-2 mx-2">
-                <input class="form-control py-3 mb-3" type="text" placeholder="First Name"
+              <form class="mt-4 mb-2 mx-3">
+                <input name="firstName" id="firstName" class="form-control py-3" type="text" placeholder="First Name"
                   aria-label="default input example">
-                <input class="form-control py-3 mb-3" type="text" placeholder="Last Name"
+                  <small id="first-error"></small>
+                <input name="lastName" id="lastName" class="form-control py-3 mt-3" type="text" placeholder="Last Name"
                   aria-label="default input example">
-                <input class="form-control py-3 mb-3" type="email" placeholder="Email Address"
+                <input name="email" id="email" class="form-control py-3 mt-3" type="email" placeholder="Email Address"
                   aria-label="default input example">
-                <input class="form-control py-3" type="password" placeholder="Password"
+                <input name="password" id="password" class="form-control py-3 mt-3" type="password" placeholder="Password"
                   aria-label="default input example">
-                <div class="d-grid col col-xl- mx-auto pt-3 py-2">
-                  <a href="#" class="btn btn-primary py-3 text-uppercase" role="button">Claim your free trial</a>
+                <div class="d-grid col col-xl- mx-auto pt-3 py-2 mt-3">
+                  <button type="submit" href="#" class="btn btn-primary py-3 text-uppercase" >Claim your free trial</button>
                 </div>
                 <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
-              </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
