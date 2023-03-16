@@ -1,0 +1,126 @@
+body{
+    background-image: url(/images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    margin-top: 6rem;
+    text-align: center
+}
+
+.top-section h1{
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.top-text p{
+    color: #ffffff;
+    margin-bottom: 4rem;
+    padding: 0 1rem;
+}
+
+.first-button .btn{
+    background-color: #6055a5;
+    padding:1rem 4rem;
+    box-shadow: 0px 7px 1px #dd6767;
+}
+
+.first-button span{
+    font-weight: 700;
+}
+
+.form-section{
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 7px 1px #dd6767;
+    width: 95%;
+    margin-left: .5rem;
+}
+
+.form-control{
+    font-weight: 600;
+}
+
+.form-section .btn{
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 0px 3px 1px hsl(154, 59%, 51%);
+}
+
+.form-section p{
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+    padding: 0 2.3rem;
+    line-height: 2;
+}
+
+.form-section span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+
+@media screen and (min-width:1439px) {
+    body{
+        background-image: url(/images/bg-intro-desktop.png);
+    }
+        .top-section{
+            align-items: center;
+
+        }
+
+        .top-section h1{
+            padding-right: 2rem;
+            padding-top: 5rem;
+            font-weight: 700;
+            font-size: 3.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+    
+        }
+
+        .top-section p{
+
+            text-align: left;
+            padding-left: 6rem;
+
+        }
+
+        .whole-section{
+            margin-top: 1.7rem;
+            width: 44%;
+            padding-left: 5px;
+        }
+
+        .whole-section .btn{
+            margin-bottom: .5rem;
+            font-size: 15px;
+        }
+        .form-section{
+            margin-top: 0rem;
+            width: 96%;
+        }
+
+        .form-section input{
+            width: 95%;
+            margin-left: 1rem;
+            padding-left: 2rem;
+        }
+
+        .form-section .btn{
+            width: 95%;
+            margin: 0 auto;
+            font-size: 17px;
+        }
+
+        .form-section p{
+            margin-bottom: 3rem;
+            font-size: 11px;
+            padding-left: 3.7rem;
+            padding-top: .3rem;
+        }
+}
