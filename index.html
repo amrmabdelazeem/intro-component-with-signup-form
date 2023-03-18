@@ -35,22 +35,29 @@
             <a href="#" class="btn btn-primary" role="button"><span>Try it free 7 days</span> then $20/mo.
               thereafter</a>
           </div>
-          <div class="pt-4 form-section" onsubmit="submitForm()">
+          <div class="pt-4 form-section ">
             <div class="col- col-xl-12">
-              <form class="mt-4 mb-2 mx-3">
+              <form class="mt-4 mb-2 mx-3" id="form" action="#" name="myForm" onclick="submitForm()">
                 <input name="firstName" id="firstName" class="form-control py-3" type="text" placeholder="First Name"
-                  aria-label="default input example">
+                  aria-label="default input example" autofocus>
                   <small id="first-error"></small>
+
                 <input name="lastName" id="lastName" class="form-control py-3 mt-3" type="text" placeholder="Last Name"
                   aria-label="default input example">
+                  <small id="second-error"></small>
+
                 <input name="email" id="email" class="form-control py-3 mt-3" type="email" placeholder="Email Address"
                   aria-label="default input example">
+                  <small id="emailError"></small>
+
                 <input name="password" id="password" class="form-control py-3 mt-3" type="password" placeholder="Password"
                   aria-label="default input example">
+                  <small id="pwdError"></small>
+
                 <div class="d-grid col col-xl- mx-auto pt-3 py-2 mt-3">
-                  <button type="submit" href="#" class="btn btn-primary py-3 text-uppercase" >Claim your free trial</button>
+                  <button id="submitButton" type="submit" href="#" class="btn btn-primary py-3 text-uppercase" >Claim your free trial</button>
                 </div>
-                <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+                <p>By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
               </form>
             </div>
           </div>
