@@ -99,9 +99,9 @@ small{
 }
 
 @media screen and (min-width:1440px) {
-    body{
+    /* body{
         background-image: url(/images/bg-intro-desktop.png);
-    }
+    } */
         .top-section{
             align-items: center;
 
