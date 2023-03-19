@@ -82,7 +82,7 @@ small{
 }
 
 .icon{
-    background-image: url(../images/bg-intro-desktop.png);
+    background-image: url(../images/icon-error.svg);
     background-repeat:no-repeat ;
     background-position: center right 5%;
 }
@@ -98,9 +98,9 @@ small{
     cursor: pointer;
 }
 
-@media (min-width:1440px) {
+@media screen and (min-width:1440px) {
     body{
-        background-image: url(../images/bg-intro-desktop.png);
+        background-image: url(/images/bg-intro-desktop.png);
     }
         .top-section{
             align-items: center;
